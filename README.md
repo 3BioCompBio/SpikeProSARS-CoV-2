@@ -4,7 +4,11 @@
 
 #List of files in this directory
 
-1) AbListgit.dat: The list of 31 Antibody-Spike protein PDB complex used in the paper with their characteristics
+1) Structures: All the PDB structures used in the main paper (two PDB models for the full spike protein, ACE2-Spike protein complex PDB code 6M0J, and 31 Antibody-Spike protein complexes)
+2) LICENSE
+3) README
+4) SpikePro.cpp: Main .cpp file
+5) Edlib, CVParser.cpp, CVParser.hpp, P0DTC2.fasta and PIO_6.csv: Dependencies
 
 
 ## Usage of SpikePro

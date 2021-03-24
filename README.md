@@ -9,6 +9,7 @@
 3) README
 4) SpikePro.cpp: Main .cpp file
 5) Edlib, CVParser.cpp, CVParser.hpp, P0DTC2.fasta and PIO_6.csv: Dependencies
+6) TEST.fasta: Fasta file to use as example input 
 
 
 ## Usage of SpikePro

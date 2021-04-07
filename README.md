@@ -22,6 +22,6 @@ To run the code and predict the fitness of a viral strain
 
 ./SpikePro TEST.fasta go
 
-where TEST.fasta is the sequence of the viral spike protein in fasta format.  
+where TEST.fasta is the sequence of the considered variant of the SARS-CoV-2 spike protein in fasta format.  
 
 

@@ -77,26 +77,7 @@ int main(int argc, char * const argv[]) {
     if (optind + 2 != argc || invalidOption) {
         fprintf(stderr, "\n");
         fprintf(stderr, "Usage: %s [options...] <queries.fasta> <target.fasta>\n", argv[0]);
-        fprintf(stderr, "Options:\n");
-        fprintf(stderr, "\t-s  If specified, there will be no score or alignment output (silent mode).\n");
-        fprintf(stderr, "\t-m HW|NW|SHW  Alignment mode that will be used. [default: NW]\n");
-        fprintf(stderr, "\t-n N  Score will be calculated only for N best sequences (best = with smallest score)."
-                " If N = 0 then all sequences will be calculated."
-                " Specifying small N can make total calculation much faster. [default: 0]\n");
-        fprintf(stderr, "\t-k K  Sequences with score > K will be discarded."
-                " Smaller k, faster calculation. If -1, no sequences will be discarded. [default: -1]\n");
-        fprintf(stderr, "\t-p  If specified, alignment path will be found and printed. "
-                "This may significantly slow down the calculation.\n");
-        fprintf(stderr, "\t-l  If specified, start locations will be found and printed. "
-                "Each start location corresponds to one end location. This may somewhat slow down "
-                "the calculation, but is still faster then finding alignment path and does not consume "
-                "any extra memory.\n");
-        fprintf(stderr, "\t-f NICE|CIG_STD|CIG_EXT  Format that will be used to print alignment path,"
-                " can be used only with -p. NICE will give visually attractive format, CIG_STD will "
-                " give standard cigar format and CIG_EXT will give extended cigar format. [default: NICE]\n");
-        fprintf(stderr, "\t-r N  Core part of calculation will be repeated N times."
-                " This is useful only for performance measurement, when single execution is too short to measure."
-                " [default: 1]\n");
+        fprintf(stderr, "\n");
         return 1;
     }
     //-------------------------------------------------------------------------//
@@ -149,7 +130,7 @@ int main(int argc, char * const argv[]) {
     char* targetFilepath = NULL;
     vector< vector<char> >* targetSequences = new vector< vector<char> >();
     printf("\nReading spike protein fasta file...\n");
-    readResult = readFastaSequences("u.fasta", targetSequences);
+    readResult = readFastaSequences("P0DTC2.fasta", targetSequences);
     if (readResult) {
         printf("Error: There is no file with name %s\n", targetFilepath);
         delete querySequences;
@@ -471,7 +452,7 @@ void printAlignment(const char* query, const char* target,
                    
                         string temp;
                        
-			float Fitness[ nofvar ] = { 0.0 };
+			float Fitness[ nofvar ];
 
       //                 temp = file[f*19+offset]["MutRate"];  // display : 1997
         

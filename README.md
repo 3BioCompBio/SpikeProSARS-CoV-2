@@ -14,6 +14,9 @@
 
 ## Usage of SpikePro
 
+SpikePro algorithm predicts the fitness of a SARS-CoV-2 strain from the sequence of its spike protein. Given the target sequence in fasta format, the algorithm aligns it to the reference spike protein (Uniprot P0DTC2), list all mutations with respect to the reference and compute the fitness for each mutations and for the overal viral strain. You can find more details on the preprint (F. Pucci and M Rooman, [Prediction and evolution of the molecular fitness of SARS-CoV-2 variants: Introducing SpikePro](https://www.biorxiv.org/content/10.1101/2021.04.11.439322v1), submitted).   
+
+
 To compile the c++ program type this command:
 
 c++ SpikePro.cpp edlib/src/edlib.cpp CSVparser.cpp -o SpikePro -I edlib/include/ -std=c++11

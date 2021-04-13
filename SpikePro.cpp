@@ -76,7 +76,7 @@ int main(int argc, char * const argv[]) {
 
     if (optind + 2 != argc || invalidOption) {
         fprintf(stderr, "\n");
-        fprintf(stderr, "Usage: %s [options...] <queries.fasta> <target.fasta>\n", argv[0]);
+        fprintf(stderr, "Usage: %s <target.fasta> go\n", argv[0]);
         fprintf(stderr, "\n");
         return 1;
     }

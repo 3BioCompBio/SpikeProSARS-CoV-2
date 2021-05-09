@@ -7,7 +7,7 @@
             <phi_na> >1 means that in average mutations at that position 
             confer a fitness advantage and are likely to escape to immune system.
 
-RES    WT     <phi_na>
+RES     WT      <phi_na>
 
 326	I	1.
 327	V	1.03

@@ -16,7 +16,7 @@ where TEST.fasta is the sequence of the considered variant of the SARS-CoV-2 spi
 
 ## List of files in this directory
 
-1) Structures: All PDB structures used in the main paper (two PDB models for the full spike protein, ACE2-Spike protein complex PDB code 6M0J, 31 Antibody-Spike protein complexes), list of all RBD epitopes 
+1) Structures: All PDB structures used in the main paper (two PDB models for the full spike protein, ACE2-Spike protein complex PDB code 6M0J, 31 Antibody-Spike protein complexes) and list of all RBD epitopes. 
 2) LICENSE
 3) README
 4) SpikePro.cpp: Main .cpp file

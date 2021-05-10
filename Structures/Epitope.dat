@@ -1,10 +1,11 @@
-# Here we report the epitopic residues of spike protein RBD 
+# Here we report the epitope residues in the spike protein RBD 
 
 # RES: Residue number
 # WT:  Wild type residue
-# NUM: number of structures in the our set of 31 spike protein-antibodies complexes 
-       for which the given residue is epitopic (defined as residues change in solvent 
-       accessibility upon antibodies binding larger than 5%) 
+# NUM: Number of structures in the our set of 31 spike protein-antibody complexes 
+       for which the given residue is part of the epitope (defined as the residues 
+       for which the change in solvent accessibility upon antibody binding is larger 
+       than 5%) 
 
 RES     WT      NUM
 

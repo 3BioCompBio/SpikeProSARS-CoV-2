@@ -6,200 +6,201 @@
        for which the given residue is part of the epitope (defined as the residues 
        for which the change in solvent accessibility upon antibody binding is larger 
        than 5%) 
+# ACE_Int: List of ACE binding sites.
 
-RES     WT      NUM
+RES     WT      NUM   ACE2_Int 
 
-333	T	0
-334	N	1
-335	L	1
-336	C	0
-337	P	1
-338	F	0
-339	G	1
-340	E	1
-341	V	0
-342	F	0
-343	N	1
-344	A	1
-345	T	1
-346	R	5
-347	F	0
-348	A	0
-349	S	1
-350	V	0
-351	Y	3
-352	A	1
-353	W	0
-354	N	2
-355	R	1
-356	K	2
-357	R	2
-358	I	0
-359	S	1
-360	N	0
-361	C	0
-362	V	0
-363	A	0
-364	D	0
-365	Y	0
-366	S	1
-367	V	0
-368	L	0
-369	Y	2
-370	N	2
-371	S	0
-372	A	1
-373	S	0
-374	F	1
-375	S	1
-376	T	1
-377	F	2
-378	K	2
-379	C	2
-380	Y	2
-381	G	2
-382	V	2
-383	S	2
-384	P	2
-385	T	2
-386	K	2
-387	L	0
-388	N	1
-389	D	2
-390	L	2
-391	C	0
-392	F	1
-393	T	0
-394	N	0
-395	V	0
-396	Y	0
-397	A	0
-398	D	0
-399	S	0
-400	F	0
-401	V	0
-402	I	0
-403	R	23
-404	G	0
-405	D	13
-406	E	2
-407	V	0
-408	R	6
-409	Q	5
-410	I	0
-411	A	0
-412	P	1
-413	G	1
-414	Q	1
-415	T	21
-416	G	21
-417	K	22
-418	I	0
-419	A	0
-420	D	21
-421	Y	21
-422	N	0
-423	Y	0
-424	K	0
-425	L	0
-426	P	0
-427	D	2
-428	D	2
-429	F	0
-430	T	2
-431	G	0
-432	C	0
-433	V	0
-434	I	0
-435	A	0
-436	W	0
-437	N	0
-438	S	0
-439	N	0
-440	N	1
-441	L	1
-442	D	0
-443	S	0
-444	K	3
-445	V	3
-446	G	8
-447	G	2
-448	N	0
-449	Y	11
-450	N	6
-451	Y	0
-452	L	7
-453	Y	20
-454	R	0
-455	L	28
-456	F	28
-457	R	0
-458	K	21
-459	S	3
-460	N	21
-461	L	0
-462	K	0
-463	P	0
-464	F	0
-465	E	1
-466	R	1
-467	D	1
-468	I	1
-469	S	1
-470	T	6
-471	E	1
-472	I	1
-473	Y	21
-474	Q	7
-475	A	25
-476	G	23
-477	S	24
-478	T	6
-479	P	0
-480	C	1
-481	N	2
-482	G	3
-483	V	6
-484	E	15
-485	G	10
-486	F	27
-487	N	26
-488	C	0
-489	Y	28
-490	F	9
-491	P	0
-492	L	3
-493	Q	28
-494	S	15
-495	Y	11
-496	G	19
-497	F	0
-498	Q	17
-499	P	1
-500	T	16
-501	N	20
-502	G	18
-503	V	5
-504	G	2
-505	Y	23
-506	Q	0
-507	P	0
-508	Y	0
-509	R	0
-510	V	0
-511	V	0
-512	V	0
-513	L	0
-514	S	0
-515	F	0
-516	E	0
-517	L	2
-518	L	0
-519	H	1
-520	A	0
-521	P	0
-522	A	0
-523	T	0
-524	V	0
-525	C	0
-526	G	0
+333	T	0	 no   
+334	N	1	 no   
+335	L	1	 no   
+336	C	0	 no   
+337	P	1	 no   
+338	F	0	 no   
+339	G	1	 no   
+340	E	1	 no   
+341	V	0	 no   
+342	F	0	 no   
+343	N	1	 no   
+344	A	1	 no   
+345	T	1	 no   
+346	R	5	 no   
+347	F	0	 no   
+348	A	0	 no   
+349	S	1	 no   
+350	V	0	 no   
+351	Y	3	 no   
+352	A	1	 no   
+353	W	0	 no   
+354	N	2	 no   
+355	R	1	 no   
+356	K	2	 no   
+357	R	2	 no   
+358	I	0	 no   
+359	S	1	 no    
+360	N	0	 no    
+361	C	0	 no    
+362	V	0	 no    
+363	A	0	 no    
+364	D	0	 no    
+365	Y	0	 no    
+366	S	1	 no    
+367	V	0	 no    
+368	L	0	 no    
+369	Y	2	 no    
+370	N	2	 no    
+371	S	0	 no    
+372	A	1	 no    
+373	S	0	 no    
+374	F	1	 no    
+375	S	1	 no    
+376	T	1	 no    
+377	F	2	 no    
+378	K	2	 no    
+379	C	2	 no    
+380	Y	2	 no    
+381	G	2	 no    
+382	V	2	 no    
+383	S	2	 no    
+384	P	2	 no    
+385	T	2	 no    
+386	K	2	 no    
+387	L	0	 no    
+388	N	1	 no    
+389	D	2	 no    
+390	L	2	 no    
+391	C	0	 no    
+392	F	1	 no    
+393	T	0	 no    
+394	N	0	 no    
+395	V	0	 no    
+396	Y	0	 no    
+397	A	0	 no    
+398	D	0	 no    
+399	S	0	 no    
+400	F	0	 no    
+401	V	0	 no    
+402	I	0	 no    
+403	R	23	 no    
+404	G	0	 no    
+405	D	13	 no    
+406	E	2	 no    
+407	V	0	 no    
+408	R	6	 no    
+409	Q	5	 no    
+410	I	0	 no    
+411	A	0	 no    
+412	P	1	 no    
+413	G	1	 no    
+414	Q	1	 no    
+415	T	21	 no    
+416	G	21	 no    
+417	K	22	 yes   
+418	I	0	 no    
+419	A	0	 no    
+420	D	21	 no    
+421	Y	21	 no    
+422	N	0	 no    
+423	Y	0	 no    
+424	K	0	 no    
+425	L	0	 no    
+426	P	0	 no    
+427	D	2	 no    
+428	D	2	 no    
+429	F	0	 no    
+430	T	2	 no    
+431	G	0	 no    
+432	C	0	 no    
+433	V	0	 no    
+434	I	0	 no    
+435	A	0	 no    
+436	W	0	 no    
+437	N	0	 no    
+438	S	0	 no    
+439	N	0	 no    
+440	N	1	 no    
+441	L	1	 no    
+442	D	0	 no    
+443	S	0	 no    
+444	K	3	 no    
+445	V	3	 no    
+446	G	8	 yes   
+447	G	2	 no    
+448	N	0	 no    
+449	Y	11	 yes   
+450	N	6	 no    
+451	Y	0	 no    
+452	L	7	 no    
+453	Y	20	 yes   
+454	R	0	 no    
+455	L	28	 yes   
+456	F	28	 yes   
+457	R	0	 no    
+458	K	21	 no    
+459	S	3	 no    
+460	N	21	 no    
+461	L	0	 no    
+462	K	0	 no    
+463	P	0	 no    
+464	F	0	 no    
+465	E	1	 no    
+466	R	1	 no    
+467	D	1	 no    
+468	I	1	 no    
+469	S	1	 no    
+470	T	6	 no    
+471	E	1	 no    
+472	I	1	 no    
+473	Y	21	 no    
+474	Q	7	 no    
+475	A	25	 yes   
+476	G	23	 yes   
+477	S	24	 no    
+478	T	6	 no    
+479	P	0	 no    
+480	C	1	 no    
+481	N	2	 no    
+482	G	3	 no    
+483	V	6	 no    
+484	E	15	 yes   
+485	G	10	 no    
+486	F	27	 yes   
+487	N	26	 yes   
+488	C	0	 no    
+489	Y	28	 yes   
+490	F	9	 no    
+491	P	0	 no    
+492	L	3	 no    
+493	Q	28	 yes   
+494	S	15	 no    
+495	Y	11	 no    
+496	G	19	 yes   
+497	F	0	 no    
+498	Q	17	 yes   
+499	P	1	 no    
+500	T	16	 yes   
+501	N	20	 yes   
+502	G	18	 yes   
+503	V	5	 yes   
+504	G	2	 no    
+505	Y	23	 yes   
+506	Q	0	 no    
+507	P	0	 no    
+508	Y	0	 no    
+509	R	0	 no    
+510	V	0	 no    
+511	V	0	 no    
+512	V	0	 no    
+513	L	0	 no    
+514	S	0	 no    
+515	F	0	 no    
+516	E	0	 no    
+517	L	2	 no    
+518	L	0	 no    
+519	H	1	 no    
+520	A	0	 no    
+521	P	0	 no    
+522	A	0	 no    
+523	T	0	 no    
+524	V	0	 no    
+525	C	0	 no    
+526	G	0	 no

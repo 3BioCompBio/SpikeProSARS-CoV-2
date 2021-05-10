@@ -8,7 +8,7 @@
        than 5%) 
 # ACE_Int: List of ACE binding sites.
 
-RES     WT      NUM   ACE2_Int 
+RES     WT      NUM     ACE2_Int 
 
 333	T	0	 no   
 334	N	1	 no   

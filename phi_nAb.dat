@@ -1,13 +1,13 @@
-# Here we report the epitopic residues of spike protein RBD
+# Here we report the epitope residues in the spike protein RBD
 
 # RES: Residue number
 # WT:  Wild type residue
-# <phi_na>: Per-residue fitness values related to the immune escape 
-            averaged over all mutations inserted at the given position. 
-            <phi_na> >1 means that in average mutations at that position 
-            confer a fitness advantage and are likely to escape to immune system.
+# <phi_nAb>: Per-residue fitness contributions related to immune escape, averaged over all 
+            possible mutations inserted at that position.
+            <phi_nAb> >1 means that mutations at that position confer, on the average, 
+            a fitness advantage and are likely to lead to the escape from the immune system.
 
-RES     WT      <phi_na>
+RES     WT      <phi_nAb>
 
 326	I	1.
 327	V	1.03

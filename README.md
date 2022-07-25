@@ -1,9 +1,15 @@
-## SpikeProSARS-CoV-2. New Webserver version (July 2022)
+## SpikePro. New Webserver version (July 2022)
 
 The SpikePro algorithm has been updated and we also made it available trhough a dedicated webserver (http://babylone.3bio.ulb.ac.be/SpikePro) in which we present also experimental data regarding the variants  that have been collected in the literature and well one can visualize the 3D structure of the spike protein with the location of all mutations. 
 
+If you use SpikePro please cite the following papers:
 
-## SpikeProSARS-CoV-2. Usage
+[1] Pucci F, Rooman M. Prediction and Evolution of the Molecular Fitness of SARS-CoV-2 Variants: Introducing SpikePro. Viruses. 2021; 13(5):935. 
+
+[2] Cia G, Kwasigroch J, Rooman M, Pucci F. SpikePro: a webserver to predict the fitness of SARS-CoV-2 variants. Bioinformatics. 2022; btca517.
+
+
+## SpikePro. Usage
 
 SpikePro algorithm predicts the fitness of a SARS-CoV-2 strain from the sequence of its spike protein. Given the target sequence in fasta format, the algorithm aligns it to the reference SARS-CoV-2 spike protein (Uniprot P0DTC2), list all mutations with respect to the reference and compute the fitness for each mutations as well as for the overal viral strain. You can find more details on our preprint (Pucci and Rooman, [Prediction and evolution of the molecular fitness of SARS-CoV-2 variants: Introducing SpikePro](https://www.biorxiv.org/content/10.1101/2021.04.11.439322v1), submitted).   
 

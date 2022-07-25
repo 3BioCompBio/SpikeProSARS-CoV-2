@@ -1,6 +1,6 @@
 ## SpikePro. New Webserver version (July 2022)
 
-The SpikePro algorithm has been updated and we also made it available trhough a dedicated webserver (http://babylone.3bio.ulb.ac.be/SpikePro) in which we present also experimental data regarding the variants  that have been collected in the literature and well one can visualize the 3D structure of the spike protein with the location of all mutations. 
+The SpikePro algorithm has been updated and we also made it available through a webserver (http://babylone.3bio.ulb.ac.be/SpikePro) in which we also provide experimental data collected in the literature regarding the variants and the 3D visualization of the Spike proiten structure with the localization of all mutations. 
 
 If you use SpikePro please cite the following papers:
 

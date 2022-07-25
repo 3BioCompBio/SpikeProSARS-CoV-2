@@ -32,7 +32,7 @@ where TEST.fasta is the sequence of the considered variant of the SARS-CoV-2 spi
 2) LICENSE
 3) README
 4) SpikePro.cpp: Main .cpp file
-5) Edlib, CVParser.cpp, CVParser.hpp, P0DTC2.fasta and PIO_6.csv: Dependencies
+5) Edlib, CVParser.cpp, CVParser.hpp, P0DTC2.fasta, PIO_6.csv, PIO_8.csv: Dependencies
 6) TEST.fasta: Fasta file to use as example input 
 
 

@@ -8,6 +8,7 @@ If you use SpikePro please cite the following papers:
 
 [2] Cia G, Kwasigroch J, Rooman M, Pucci F. SpikePro: a webserver to predict the fitness of SARS-CoV-2 variants. Bioinformatics. 2022; btca517.
 
+For technical details on SpikePro we refere to these reference.  
 
 ## SpikePro. Usage
 
